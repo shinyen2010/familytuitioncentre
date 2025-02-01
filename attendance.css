@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Comics Sans MS;
+    background-color: lightslategrey;
+    margin: 0;
+    align-items: center;
+}
+
+.dianming {
+    text-align: center;
+    color: white;
+    font-family: Kaiti;
+    padding: 20px;
+}
+
+input[type=text] {
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 5px;
+}
+
+.submit {
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+table {
+    width: 90%;
+    border: 3px solid black;
+    border-color: black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5vw;
+    color: black;
+    background-color: white;
+}
+
+th,td {
+    border: 3px solid black;
+    padding: 7px;
+    text-align: center;
+    width: 100px;
+}
+
+.reset {
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+    margin-bottom: 14vw;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    padding-top: 0px;
+    position: relative;
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+
+header li {
+    font-family: KaiTi;
+    list-style-type: none;
+    display: inline;
+    margin-right: 5vw;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-family: KaiTi;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 7vw;
+    top: 0;
+    line-height: 80px;
+}
+
+footer {
+    background-color: black;
+    height: 110px;
+    width: 100%;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+    text-align: center;
+    font-family: Comics Sans MS;
+    color: white;
+}
+
+.Copyright {
+    font-family: Comics Sans MS;
+    padding: 2vw;
+    filter: blur(0.5px);
+}
+
+footer p {
+    font-family: Comics Sans MS;
+    filter: blur(0.5px);
+}
+
+.address {
+    padding: 2vw;
+}

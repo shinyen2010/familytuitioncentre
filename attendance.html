@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>出席点名</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="attendance.css">
+        <script src="attendance.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">家庭补习班</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">首页</a></li>
+                    <li><a href="attendance.html">出席</a></li>
+                    <li><a href="schedule.html">时间表</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 class="dianming">出席点名</h1>
+        <form id="idform" class="EnterID" align="center">
+            <input id="ID" type="text" placeholder="Enter Your ID" required>
+            <button class="submit" id="submit" type="submit">Submit</button>
+        </form>
+
+        <table align="center">
+            <thead>
+                <tr>
+                    <th> ID </th>
+                    <th> Name </th>
+                    <th> Date </th>
+                    <th> Time </th>
+                </tr>
+            </thead>
+            <tbody id="attendance">
+                <!-- Attendance will be displayed here!-->
+            </tbody>
+        </table>
+
+        <form align="center">
+            <button class="reset" id="reset" type="button">Reset</button> <!-- ✅ 修正 -->
+        </form>
+
+        <footer>
+            <p class="Copyright">Copyright © 家庭补习班</p>
+            <p>Taman Krubong, Krubong, Melaka</p>
+        </footer>
+    </body>
+</html>
